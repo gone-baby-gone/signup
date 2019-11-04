@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Issuance
+    </title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400&display=swap');
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header row">
+                <div class="logo">
+                    <a href="#" class=""></a>
+                </div>
+
+                <div class="header_links">
+                    <a href="#" class="contact">Contact us</a>
+                    <a href="#" class="signin">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main_area row">
+                <h2 class="d-lg-none sub-header">Let's raise together.</h2>
+                <div class="col-lg-6 form">
+                    <h2 class="d-none d-lg-block">Let's raise together.</h2>
+                    <form id="submition">
+                        <div class="business_name">
+                            <label>Business name</label>
+                            <input type="text" name="name" id="name" placeholder="Business name" required>
+                        </div>
+                        <div class="business_email">
+                            <label>Work email</label>
+                            <input type="text" name="email" id="email" placeholder="Work email" required>
+                        </div>
+                        <div class="phone_number">
+                            <label>Work phone number</label>
+                            <div class="first_digits">
+<!--
+                                <select class="select" required>
+                                    <option selected value="+1">+1</option>
+                                </select>
+-->
+                            <input pattern="+1" value="+1" placeholder="+1" disabled="disabled">
+                            </div>
+                            <div class="last_digits">
+                                <input type="number" name="number" id="number" placeholder="112-233-4455"  pattern="\d*" required>
+                            </div>
+                        </div>
+                        <div class="capital_raise">
+                            <label>Type of capital raise</label>
+                            <select class="select" required>
+                                <option value="hide">Select raise type</option>
+                                <option value="regulation_a">Regulation A</option>
+                                <option value="regulation_cf">Regulation CF</option>
+                                <option value="regulation_d">Regulation D</option>
+                                <option value="non-us_raise">Non-US Raise</option>
+                                <option value="other">Other</option>
+                            </select>
+                            
+                        </div>
+                        <div>
+                            <div class="radio1">
+                                <input type="radio" name="test1" class="chk chk--square" id="chk1" checked /><label for="chk1" class="radio_label" for="chk1"><span>I have filed my offering with the SEC</span></label>
+                            </div>
+                            <div class="radio1">
+                                <input type="radio" name="test1" class="chk chk--square" id="chk2" /><label for="chk2" class="radio_label"><span>My offering is not yet filed with the SEC</span></label>
+                            </div>
+                        </div>
+                        <p class="agreement">By clicking "Submit" I agree that 'issuance' or its representatives may contact me by email, phone, or SMS at the email address or number I provide, including for marketing purposes and that my information will be used in accordance with issuance's <a href="#">Privacy Policy</a>.</p>
+                        <button class="main_button" type="submit">Get started
+                            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 5.5523 0.44772 6 1 6H8.5858L6.2929 8.2929C5.9024 8.6834 5.9024 9.3166 6.2929 9.7071C6.6834 10.0976 7.3166 10.0976 7.7071 9.7071L11.7071 5.7071C11.8946 5.5196 12 5.2652 12 5C12 4.7348 11.8946 4.4804 11.7071 4.2929L7.7071 0.29289C7.3166 -0.09763 6.6834 -0.09763 6.2929 0.29289C5.9024 0.68342 5.9024 1.31658 6.2929 1.70711L8.5858 4H1C0.44772 4 0 4.4477 0 5Z" fill="#D8D8D8" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-6 desctiption">
+                    <div class="article">
+                        <h4>Save time on finding investors</h4>
+                        <p>Access our database of hedge funds, venture firms, investment banks, and accredited investors.</p>
+                    </div>
+                    <div class="article">
+                        <h4>Market to defined investor audiences</h4>
+                        <p>We’ve developed an audience network of almost 500,000 retail investors that can be segmented and targeted for your campaign. </p>
+                    </div>
+                    <div class="article">
+                        <h4>Recieve investments in any form</h4>
+                        <p>Allow investors to invest with credit card, self-directed IRA, and even crypto-currencies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="upper_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a class="trademark" href="#"></a>
+                        <p class="footer_text d-none d-sm-block">Join our newsletter to stay up to date on features and releases</p>
+                        <a href="#" class="contact2">Contact us</a>
+
+                        <form action="" class="d-none d-sm-block">
+                            <fieldset class="fieldInput">
+                                <input class="form-input" type="email" placeholder="Enter your email address">
+                                <button type="submit" class="form-submit"></button>
+                            </fieldset>
+                        </form>
+
+
+                    </div>
+                    <div class="col-lg-6 other_links">
+                        <div class="row">
+                            <div class="col-sm-4 display_block">
+                                <p><a href="#">First page</a></p>
+                                <p><a href="#">Second page</a></p>
+                                <p><a href="#">Third</a></p>
+                                <p><a href="#">Fourth</a></p>
+                            </div>
+                            <div class="col-sm-4 d-none d-sm-block">
+                                <p><a href="#">Fifth page</a></p>
+                                <p><a href="#">Sixth page</a></p>
+                                <p><a href="#">Seven</a></p>
+                            </div>
+                            <div class="col-sm-4 socials d-none d-sm-block">
+                                <p><a href="#" class="in">Instagram</a></p>
+                                <p><a href="#" class="fb">Facebook</a></p>
+                                <p><a href="#" class="tw">Twitter</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="left-part">
+                        <p>
+                            <span class="copyrights">© 2019 issuance Inc. <span class="h380">All right reserved.</span></span>
+                            <span class="mini_socials sd-block d-sm-none"><a href="#" class="insta"></a>   <a href="#" class="twitt"></a>     <a href="#" class="faceb"></a></span>
+                        </p>
+                        <a href="#"></a>   <a href="#"></a>     <a href="#"></a>
+                    </div>
+                    <div class="right-part d-none d-sm-block">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/app.js"></script>
+
+</html>
